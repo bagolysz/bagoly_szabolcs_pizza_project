@@ -1,0 +1,12 @@
+Invoice generated for order: 592edfa24db9fc1200001b2a
+Delivery address: Cluj Napoca, Gruia, 58
+Phone number: 0789632541
+ 
+Products:
+No.1 -- Empanados 16 RON -- x1
+No.2 -- Multifruct Lemonade 17 RON -- x1
+No.3 -- Chips 13.5 RON -- x2
+ 
+Total: 60 RON
+ 
+Invoice generated at: 5/31/2017 6:25:00 PM

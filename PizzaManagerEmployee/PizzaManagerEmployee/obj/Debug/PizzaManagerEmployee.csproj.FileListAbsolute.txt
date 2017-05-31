@@ -1,0 +1,13 @@
+C:\Users\Szabi\Documents\software-design\project\PizzaManagerEmployee\PizzaManagerEmployee\bin\Debug\PizzaManagerEmployee.exe.config
+C:\Users\Szabi\Documents\software-design\project\PizzaManagerEmployee\PizzaManagerEmployee\obj\Debug\PizzaManagerEmployee.csprojResolveAssemblyReference.cache
+C:\Users\Szabi\Documents\software-design\project\PizzaManagerEmployee\PizzaManagerEmployee\obj\Debug\PizzaManagerEmployee.Properties.Resources.resources
+C:\Users\Szabi\Documents\software-design\project\PizzaManagerEmployee\PizzaManagerEmployee\obj\Debug\PizzaManagerEmployee.MainForm.resources
+C:\Users\Szabi\Documents\software-design\project\PizzaManagerEmployee\PizzaManagerEmployee\obj\Debug\PizzaManagerEmployee.csproj.GenerateResource.Cache
+C:\Users\Szabi\Documents\software-design\project\PizzaManagerEmployee\PizzaManagerEmployee\bin\Debug\PizzaManagerEmployee.exe
+C:\Users\Szabi\Documents\software-design\project\PizzaManagerEmployee\PizzaManagerEmployee\bin\Debug\PizzaManagerEmployee.pdb
+C:\Users\Szabi\Documents\software-design\project\PizzaManagerEmployee\PizzaManagerEmployee\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Szabi\Documents\software-design\project\PizzaManagerEmployee\PizzaManagerEmployee\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Szabi\Documents\software-design\project\PizzaManagerEmployee\PizzaManagerEmployee\obj\Debug\PizzaManagerEmployee.exe
+C:\Users\Szabi\Documents\software-design\project\PizzaManagerEmployee\PizzaManagerEmployee\obj\Debug\PizzaManagerEmployee.pdb
+C:\Users\Szabi\Documents\software-design\project\PizzaManagerEmployee\PizzaManagerEmployee\bin\Debug\RestSharp.dll
+C:\Users\Szabi\Documents\software-design\project\PizzaManagerEmployee\PizzaManagerEmployee\bin\Debug\RestSharp.xml

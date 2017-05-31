@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cart_base_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/cart_toolbar"
+            layout="@layout/toolbar_home" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:id="@+id/cart_container_total"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/primary"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding_standard">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cart_total"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_primary" />
+
+            <TextView
+                android:id="@+id/cart_total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="@dimen/padding_half"
+                android:paddingStart="@dimen/padding_half"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_big" />
+
+            <TextView
+                android:id="@+id/cart_currency"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/detailed_currency"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_secondary" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/cart_address_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/cart_container_total"
+            android:layout_alignParentStart="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:paddingEnd="@dimen/padding_standard"
+            android:paddingStart="@dimen/padding_standard">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/padding_small"
+                android:text="@string/cart_address"
+                android:textSize="@dimen/text_primary" />
+
+            <TextView
+                android:id="@+id/cart_address_city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Cluj-Napoca" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/cart_address_street"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:textColor="@color/text_primary"
+                    android:textSize="@dimen/text_primary"
+                    tools:text="Gruia" />
+
+                <TextView
+                    android:id="@+id/cart_address_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:paddingEnd="@dimen/padding_small"
+                    android:paddingStart="@dimen/padding_small"
+                    android:textColor="@color/text_primary"
+                    android:textSize="@dimen/text_primary"
+                    tools:text="58, Bloc B1, ap. 8" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/cart_address_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_primary"
+                android:textSize="@dimen/text_primary"
+                tools:text="0787751023" />
+
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/cart_product_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/cart_address_text"
+            android:overScrollMode="never" />
+
+    </RelativeLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/cart_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding_standard"
+        android:clickable="true"
+        android:src="@drawable/ic_check_white_24dp"
+        app:fabSize="normal"
+        app:layout_anchor="@id/cart_address_text"
+        app:layout_anchorGravity="bottom|end" />
+
+
+</android.support.design.widget.CoordinatorLayout>

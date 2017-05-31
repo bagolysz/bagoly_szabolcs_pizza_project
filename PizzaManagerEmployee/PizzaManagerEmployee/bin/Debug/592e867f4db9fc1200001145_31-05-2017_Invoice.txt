@@ -1,0 +1,11 @@
+Invoice generated for order: 592e867f4db9fc1200001145
+Delivery address: Simleu, Cloșca, 45
+Phone number: 085423626
+ 
+Products:
+No.1 -- Salami 25 RON -- x1
+No.2 -- Mint Lemonade 13 RON -- x1
+ 
+Total: 38 RON
+ 
+Invoice generated at: 5/31/2017 3:35:51 PM

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/padding_standard">
+
+    <TextView
+        android:id="@+id/item_order_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="1." />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="@dimen/padding_half"
+                android:paddingStart="@dimen/padding_half"
+                android:text="@string/orders_date" />
+
+            <TextView
+                android:id="@+id/item_order_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_primary"
+                tools:text="15.56.107" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="@dimen/padding_half"
+                android:paddingStart="@dimen/padding_half"
+                android:text="@string/orders_total" />
+
+            <TextView
+                android:id="@+id/item_order_total"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_primary"
+                tools:text="15.56.107" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="@dimen/padding_half"
+                android:paddingStart="@dimen/padding_half"
+                android:text="@string/orders_status" />
+
+            <TextView
+                android:id="@+id/item_order_status"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_primary"
+                tools:text="15.56.107" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

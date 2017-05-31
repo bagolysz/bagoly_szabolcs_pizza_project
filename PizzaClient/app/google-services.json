@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "332045412201",
+    "firebase_url": "https://pizzamanager-90645.firebaseio.com",
+    "project_id": "pizzamanager-90645",
+    "storage_bucket": "pizzamanager-90645.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:332045412201:android:bdb020b626f2b26e",
+        "android_client_info": {
+          "package_name": "com.sdproject.szabi.pizzaclient"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "332045412201-1b88012mhrlkqqb977skusit88vrg45k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sdproject.szabi.pizzaclient",
+            "certificate_hash": "4d4afb418cfc6d4d80e636a53d4e9512508ff6a2"
+          }
+        },
+        {
+          "client_id": "332045412201-d3l35tohq86ftf2cejs1jng5272m161e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCK0nRW05onrvqdZz_rXDM1zddMd1RgUB4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "332045412201-d3l35tohq86ftf2cejs1jng5272m161e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

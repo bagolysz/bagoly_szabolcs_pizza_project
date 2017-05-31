@@ -1,0 +1,10 @@
+Invoice generated for order: 592e731b4db9fc1200001049
+Delivery address: Simleu, Cloșca, 45
+Phone number: 085423626
+ 
+Products:
+No.1 -- Full extra 35 RON -- x5
+ 
+Total: 175 RON
+ 
+Invoice generated at: 5/31/2017 10:43:39 AM
